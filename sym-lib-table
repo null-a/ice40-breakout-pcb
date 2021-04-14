@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name $MySymbols)(type Legacy)(uri ${KIPRJMOD}/$MySymbols.lib)(options "")(descr ""))
+  (lib (name $Clock)(type Legacy)(uri ${KIPRJMOD}/ul_SIT2001BIS233E12000000G/KiCAD/2021-04-14_10-51-26/2021-04-14_10-51-26.lib)(options "")(descr ""))
+)
