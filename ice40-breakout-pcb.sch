@@ -1560,4 +1560,6 @@ Text GLabel 4400 6600 0    50   Input ~ 0
 USB_P
 Text GLabel 4400 6500 0    50   Input ~ 0
 USB_N
+Text GLabel 4400 6000 0    50   Input ~ 0
+LED
 $EndSCHEMATC
