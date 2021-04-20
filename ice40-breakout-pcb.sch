@@ -1860,49 +1860,49 @@ F 3 "" H 9150 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J6
+L Connector_Generic:Conn_02x05_Odd_Even J6
 U 1 1 608F76A7
 P 11200 9100
 F 0 "J6" H 11250 9417 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 11250 9326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 11200 9100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 11200 9100 50  0001 C CNN
 F 3 "~" H 11200 9100 50  0001 C CNN
 	1    11200 9100
 	1    0    0    -1  
 $EndComp
-Text GLabel 11500 9100 2    50   Input ~ 0
+Text GLabel 11500 9000 2    50   Input ~ 0
 SPI_SS
-Text GLabel 11000 9100 0    50   Input ~ 0
+Text GLabel 11000 9000 0    50   Input ~ 0
 SPI_SCK
-Text GLabel 11500 9200 2    50   Input ~ 0
+Text GLabel 11500 9100 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 11000 9200 0    50   Input ~ 0
+Text GLabel 11000 9100 0    50   Input ~ 0
 SPI_MOSI
 $Comp
 L power:GND #PWR065
 U 1 1 608F8197
-P 11000 9000
-F 0 "#PWR065" H 11000 8750 50  0001 C CNN
-F 1 "GND" H 11005 8827 50  0000 C CNN
-F 2 "" H 11000 9000 50  0001 C CNN
-F 3 "" H 11000 9000 50  0001 C CNN
-	1    11000 9000
+P 11000 8900
+F 0 "#PWR065" H 11000 8650 50  0001 C CNN
+F 1 "GND" H 11005 8727 50  0000 C CNN
+F 2 "" H 11000 8900 50  0001 C CNN
+F 3 "" H 11000 8900 50  0001 C CNN
+	1    11000 8900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR066
 U 1 1 608F890D
-P 11500 9000
-F 0 "#PWR066" H 11500 8850 50  0001 C CNN
-F 1 "+3.3V" H 11515 9173 50  0000 C CNN
-F 2 "" H 11500 9000 50  0001 C CNN
-F 3 "" H 11500 9000 50  0001 C CNN
-	1    11500 9000
+P 11500 8900
+F 0 "#PWR066" H 11500 8750 50  0001 C CNN
+F 1 "+3.3V" H 11515 9073 50  0000 C CNN
+F 2 "" H 11500 8900 50  0001 C CNN
+F 3 "" H 11500 8900 50  0001 C CNN
+	1    11500 8900
 	0    1    1    0   
 $EndComp
-Text GLabel 11500 9300 2    50   Input ~ 0
+Text GLabel 11500 9200 2    50   Input ~ 0
 CDONE
-Text GLabel 11000 9300 0    50   Input ~ 0
+Text GLabel 11000 9200 0    50   Input ~ 0
 CRESET
 Text GLabel 9150 7300 0    50   Input ~ 0
 gp_b_17
@@ -2216,4 +2216,12 @@ NoConn ~ 5350 6950
 NoConn ~ 5350 7050
 NoConn ~ 5350 7150
 NoConn ~ 5350 7250
+Text GLabel 5350 7350 0    50   Input ~ 0
+cbsel0
+Text GLabel 5350 7450 0    50   Input ~ 0
+cbsel1
+Text GLabel 11500 9300 2    50   Input ~ 0
+cbsel0
+Text GLabel 11000 9300 0    50   Input ~ 0
+cbsel1
 $EndSCHEMATC
