@@ -16,45 +16,45 @@ $EndDescr
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U5
 U 1 1 6077130F
-P 1450 6000
-F 0 "U5" H 1799 6228 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 1799 6137 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2450 4100 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 450 8500 50  0001 C CNN
-	1    1450 6000
+P 1900 6050
+F 0 "U5" H 2249 6278 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 2249 6187 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2900 4150 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 900 8550 50  0001 C CNN
+	1    1900 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U5
 U 2 1 607745B5
-P 2500 6000
-F 0 "U5" H 2849 6228 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 2849 6137 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 3500 4100 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1500 8500 50  0001 C CNN
-	2    2500 6000
+P 3200 5950
+F 0 "U5" H 3549 6178 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 3549 6087 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4200 4050 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2200 8450 50  0001 C CNN
+	2    3200 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U5
 U 3 1 6077872A
-P 4900 6500
-F 0 "U5" H 5299 6728 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 5299 6637 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5900 4600 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3900 9000 50  0001 C CNN
-	3    4900 6500
+P 5850 6450
+F 0 "U5" H 6249 6678 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 6249 6587 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 6850 4550 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4850 8950 50  0001 C CNN
+	3    5850 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L FPGA_Lattice:ICE40HX4K-TQ144 U5
 U 4 1 6077C9D3
-P 3350 6000
-F 0 "U5" H 3699 6178 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 3699 6087 50  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4350 4100 50  0001 R CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2350 8500 50  0001 C CNN
-	4    3350 6000
+P 4500 6050
+F 0 "U5" H 4849 6228 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4849 6137 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5500 4150 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3500 8550 50  0001 C CNN
+	4    4500 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1068,45 +1068,45 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR022
 U 1 1 6081DC07
-P 1450 4200
-F 0 "#PWR022" H 1450 4050 50  0001 C CNN
-F 1 "+3.3V" H 1465 4373 50  0000 C CNN
-F 2 "" H 1450 4200 50  0001 C CNN
-F 3 "" H 1450 4200 50  0001 C CNN
-	1    1450 4200
+P 1900 4250
+F 0 "#PWR022" H 1900 4100 50  0001 C CNN
+F 1 "+3.3V" H 1915 4423 50  0000 C CNN
+F 2 "" H 1900 4250 50  0001 C CNN
+F 3 "" H 1900 4250 50  0001 C CNN
+	1    1900 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR021
 U 1 1 6081E511
-P 2500 4100
-F 0 "#PWR021" H 2500 3950 50  0001 C CNN
-F 1 "+3.3V" H 2515 4273 50  0000 C CNN
-F 2 "" H 2500 4100 50  0001 C CNN
-F 3 "" H 2500 4100 50  0001 C CNN
-	1    2500 4100
+P 3200 4050
+F 0 "#PWR021" H 3200 3900 50  0001 C CNN
+F 1 "+3.3V" H 3215 4223 50  0000 C CNN
+F 2 "" H 3200 4050 50  0001 C CNN
+F 3 "" H 3200 4050 50  0001 C CNN
+	1    3200 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR023
 U 1 1 6081EB35
-P 3350 4200
-F 0 "#PWR023" H 3350 4050 50  0001 C CNN
-F 1 "+3.3V" H 3365 4373 50  0000 C CNN
-F 2 "" H 3350 4200 50  0001 C CNN
-F 3 "" H 3350 4200 50  0001 C CNN
-	1    3350 4200
+P 4500 4250
+F 0 "#PWR023" H 4500 4100 50  0001 C CNN
+F 1 "+3.3V" H 4515 4423 50  0000 C CNN
+F 2 "" H 4500 4250 50  0001 C CNN
+F 3 "" H 4500 4250 50  0001 C CNN
+	1    4500 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR027
 U 1 1 6081F731
-P 4900 5100
-F 0 "#PWR027" H 4900 4950 50  0001 C CNN
-F 1 "+3.3V" H 4915 5273 50  0000 C CNN
-F 2 "" H 4900 5100 50  0001 C CNN
-F 3 "" H 4900 5100 50  0001 C CNN
-	1    4900 5100
+P 5850 5050
+F 0 "#PWR027" H 5850 4900 50  0001 C CNN
+F 1 "+3.3V" H 5865 5223 50  0000 C CNN
+F 2 "" H 5850 5050 50  0001 C CNN
+F 3 "" H 5850 5050 50  0001 C CNN
+	1    5850 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1552,15 +1552,15 @@ Wire Wire Line
 	5050 3050 5250 3050
 Wire Wire Line
 	5950 3050 6150 3050
-Text GLabel 950  6300 0    50   Input ~ 0
+Text GLabel 1400 6350 0    50   Input ~ 0
 CLK
-Text GLabel 4400 6700 0    50   Input ~ 0
+Text GLabel 5350 6650 0    50   Input ~ 0
 USB_PU
-Text GLabel 4400 6600 0    50   Input ~ 0
+Text GLabel 5350 6550 0    50   Input ~ 0
 USB_P
-Text GLabel 4400 6500 0    50   Input ~ 0
+Text GLabel 5350 6450 0    50   Input ~ 0
 USB_N
-Text GLabel 4400 6000 0    50   Input ~ 0
+Text GLabel 5350 5950 0    50   Input ~ 0
 LED
 $Comp
 L Connector_Generic:Conn_02x16_Odd_Even J3
@@ -1664,244 +1664,556 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x16_Odd_Even J4
 U 1 1 608A8888
-P 8600 6750
-F 0 "J4" H 8650 7667 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 8650 7576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 8600 6750 50  0001 C CNN
-F 3 "~" H 8600 6750 50  0001 C CNN
-	1    8600 6750
+P 11200 6750
+F 0 "J4" H 11250 7667 50  0000 C CNN
+F 1 "Conn_02x16_Odd_Even" H 11250 7576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 11200 6750 50  0001 C CNN
+F 3 "~" H 11200 6750 50  0001 C CNN
+	1    11200 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR050
 U 1 1 608A888E
-P 8900 6550
-F 0 "#PWR050" H 8900 6300 50  0001 C CNN
-F 1 "GND" H 8905 6377 50  0000 C CNN
-F 2 "" H 8900 6550 50  0001 C CNN
-F 3 "" H 8900 6550 50  0001 C CNN
-	1    8900 6550
+P 11500 6550
+F 0 "#PWR050" H 11500 6300 50  0001 C CNN
+F 1 "GND" H 11505 6377 50  0000 C CNN
+F 2 "" H 11500 6550 50  0001 C CNN
+F 3 "" H 11500 6550 50  0001 C CNN
+	1    11500 6550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR062
 U 1 1 608A8894
-P 8900 7150
-F 0 "#PWR062" H 8900 6900 50  0001 C CNN
-F 1 "GND" H 8905 6977 50  0000 C CNN
-F 2 "" H 8900 7150 50  0001 C CNN
-F 3 "" H 8900 7150 50  0001 C CNN
-	1    8900 7150
+P 11500 7150
+F 0 "#PWR062" H 11500 6900 50  0001 C CNN
+F 1 "GND" H 11505 6977 50  0000 C CNN
+F 2 "" H 11500 7150 50  0001 C CNN
+F 3 "" H 11500 7150 50  0001 C CNN
+	1    11500 7150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR044
 U 1 1 608A889A
-P 8900 6450
-F 0 "#PWR044" H 8900 6300 50  0001 C CNN
-F 1 "+3.3V" H 8915 6623 50  0000 C CNN
-F 2 "" H 8900 6450 50  0001 C CNN
-F 3 "" H 8900 6450 50  0001 C CNN
-	1    8900 6450
+P 11500 6450
+F 0 "#PWR044" H 11500 6300 50  0001 C CNN
+F 1 "+3.3V" H 11515 6623 50  0000 C CNN
+F 2 "" H 11500 6450 50  0001 C CNN
+F 3 "" H 11500 6450 50  0001 C CNN
+	1    11500 6450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR056
 U 1 1 608A88A0
-P 8900 7050
-F 0 "#PWR056" H 8900 6900 50  0001 C CNN
-F 1 "+3.3V" H 8915 7223 50  0000 C CNN
-F 2 "" H 8900 7050 50  0001 C CNN
-F 3 "" H 8900 7050 50  0001 C CNN
-	1    8900 7050
+P 11500 7050
+F 0 "#PWR056" H 11500 6900 50  0001 C CNN
+F 1 "+3.3V" H 11515 7223 50  0000 C CNN
+F 2 "" H 11500 7050 50  0001 C CNN
+F 3 "" H 11500 7050 50  0001 C CNN
+	1    11500 7050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR055
 U 1 1 608A88A6
-P 8400 7050
-F 0 "#PWR055" H 8400 6900 50  0001 C CNN
-F 1 "+3.3V" H 8415 7223 50  0000 C CNN
-F 2 "" H 8400 7050 50  0001 C CNN
-F 3 "" H 8400 7050 50  0001 C CNN
-	1    8400 7050
+P 11000 7050
+F 0 "#PWR055" H 11000 6900 50  0001 C CNN
+F 1 "+3.3V" H 11015 7223 50  0000 C CNN
+F 2 "" H 11000 7050 50  0001 C CNN
+F 3 "" H 11000 7050 50  0001 C CNN
+	1    11000 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR061
 U 1 1 608A88AC
-P 8400 7150
-F 0 "#PWR061" H 8400 6900 50  0001 C CNN
-F 1 "GND" H 8405 6977 50  0000 C CNN
-F 2 "" H 8400 7150 50  0001 C CNN
-F 3 "" H 8400 7150 50  0001 C CNN
-	1    8400 7150
+P 11000 7150
+F 0 "#PWR061" H 11000 6900 50  0001 C CNN
+F 1 "GND" H 11005 6977 50  0000 C CNN
+F 2 "" H 11000 7150 50  0001 C CNN
+F 3 "" H 11000 7150 50  0001 C CNN
+	1    11000 7150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR049
 U 1 1 608A88B2
-P 8400 6550
-F 0 "#PWR049" H 8400 6300 50  0001 C CNN
-F 1 "GND" H 8405 6377 50  0000 C CNN
-F 2 "" H 8400 6550 50  0001 C CNN
-F 3 "" H 8400 6550 50  0001 C CNN
-	1    8400 6550
+P 11000 6550
+F 0 "#PWR049" H 11000 6300 50  0001 C CNN
+F 1 "GND" H 11005 6377 50  0000 C CNN
+F 2 "" H 11000 6550 50  0001 C CNN
+F 3 "" H 11000 6550 50  0001 C CNN
+	1    11000 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR043
 U 1 1 608A88B8
-P 8400 6450
-F 0 "#PWR043" H 8400 6300 50  0001 C CNN
-F 1 "+3.3V" H 8415 6623 50  0000 C CNN
-F 2 "" H 8400 6450 50  0001 C CNN
-F 3 "" H 8400 6450 50  0001 C CNN
-	1    8400 6450
+P 11000 6450
+F 0 "#PWR043" H 11000 6300 50  0001 C CNN
+F 1 "+3.3V" H 11015 6623 50  0000 C CNN
+F 2 "" H 11000 6450 50  0001 C CNN
+F 3 "" H 11000 6450 50  0001 C CNN
+	1    11000 6450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x16_Odd_Even J5
 U 1 1 608B30C0
-P 9600 6750
-F 0 "J5" H 9650 7667 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 9650 7576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 9600 6750 50  0001 C CNN
-F 3 "~" H 9600 6750 50  0001 C CNN
-	1    9600 6750
+P 9350 6800
+F 0 "J5" H 9400 7717 50  0000 C CNN
+F 1 "Conn_02x16_Odd_Even" H 9400 7626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 9350 6800 50  0001 C CNN
+F 3 "~" H 9350 6800 50  0001 C CNN
+	1    9350 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR052
 U 1 1 608B30C6
-P 9900 6550
-F 0 "#PWR052" H 9900 6300 50  0001 C CNN
-F 1 "GND" H 9905 6377 50  0000 C CNN
-F 2 "" H 9900 6550 50  0001 C CNN
-F 3 "" H 9900 6550 50  0001 C CNN
-	1    9900 6550
+P 9650 6600
+F 0 "#PWR052" H 9650 6350 50  0001 C CNN
+F 1 "GND" H 9655 6427 50  0000 C CNN
+F 2 "" H 9650 6600 50  0001 C CNN
+F 3 "" H 9650 6600 50  0001 C CNN
+	1    9650 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR064
 U 1 1 608B30CC
-P 9900 7150
-F 0 "#PWR064" H 9900 6900 50  0001 C CNN
-F 1 "GND" H 9905 6977 50  0000 C CNN
-F 2 "" H 9900 7150 50  0001 C CNN
-F 3 "" H 9900 7150 50  0001 C CNN
-	1    9900 7150
+P 9650 7200
+F 0 "#PWR064" H 9650 6950 50  0001 C CNN
+F 1 "GND" H 9655 7027 50  0000 C CNN
+F 2 "" H 9650 7200 50  0001 C CNN
+F 3 "" H 9650 7200 50  0001 C CNN
+	1    9650 7200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR046
 U 1 1 608B30D2
-P 9900 6450
-F 0 "#PWR046" H 9900 6300 50  0001 C CNN
-F 1 "+3.3V" H 9915 6623 50  0000 C CNN
-F 2 "" H 9900 6450 50  0001 C CNN
-F 3 "" H 9900 6450 50  0001 C CNN
-	1    9900 6450
+P 9650 6500
+F 0 "#PWR046" H 9650 6350 50  0001 C CNN
+F 1 "+3.3V" H 9665 6673 50  0000 C CNN
+F 2 "" H 9650 6500 50  0001 C CNN
+F 3 "" H 9650 6500 50  0001 C CNN
+	1    9650 6500
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR058
 U 1 1 608B30D8
-P 9900 7050
-F 0 "#PWR058" H 9900 6900 50  0001 C CNN
-F 1 "+3.3V" H 9915 7223 50  0000 C CNN
-F 2 "" H 9900 7050 50  0001 C CNN
-F 3 "" H 9900 7050 50  0001 C CNN
-	1    9900 7050
+P 9650 7100
+F 0 "#PWR058" H 9650 6950 50  0001 C CNN
+F 1 "+3.3V" H 9665 7273 50  0000 C CNN
+F 2 "" H 9650 7100 50  0001 C CNN
+F 3 "" H 9650 7100 50  0001 C CNN
+	1    9650 7100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR057
 U 1 1 608B30DE
-P 9400 7050
-F 0 "#PWR057" H 9400 6900 50  0001 C CNN
-F 1 "+3.3V" H 9415 7223 50  0000 C CNN
-F 2 "" H 9400 7050 50  0001 C CNN
-F 3 "" H 9400 7050 50  0001 C CNN
-	1    9400 7050
+P 9150 7100
+F 0 "#PWR057" H 9150 6950 50  0001 C CNN
+F 1 "+3.3V" H 9165 7273 50  0000 C CNN
+F 2 "" H 9150 7100 50  0001 C CNN
+F 3 "" H 9150 7100 50  0001 C CNN
+	1    9150 7100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR063
 U 1 1 608B30E4
-P 9400 7150
-F 0 "#PWR063" H 9400 6900 50  0001 C CNN
-F 1 "GND" H 9405 6977 50  0000 C CNN
-F 2 "" H 9400 7150 50  0001 C CNN
-F 3 "" H 9400 7150 50  0001 C CNN
-	1    9400 7150
+P 9150 7200
+F 0 "#PWR063" H 9150 6950 50  0001 C CNN
+F 1 "GND" H 9155 7027 50  0000 C CNN
+F 2 "" H 9150 7200 50  0001 C CNN
+F 3 "" H 9150 7200 50  0001 C CNN
+	1    9150 7200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR051
 U 1 1 608B30EA
-P 9400 6550
-F 0 "#PWR051" H 9400 6300 50  0001 C CNN
-F 1 "GND" H 9405 6377 50  0000 C CNN
-F 2 "" H 9400 6550 50  0001 C CNN
-F 3 "" H 9400 6550 50  0001 C CNN
-	1    9400 6550
+P 9150 6600
+F 0 "#PWR051" H 9150 6350 50  0001 C CNN
+F 1 "GND" H 9155 6427 50  0000 C CNN
+F 2 "" H 9150 6600 50  0001 C CNN
+F 3 "" H 9150 6600 50  0001 C CNN
+	1    9150 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR045
 U 1 1 608B30F0
-P 9400 6450
-F 0 "#PWR045" H 9400 6300 50  0001 C CNN
-F 1 "+3.3V" H 9415 6623 50  0000 C CNN
-F 2 "" H 9400 6450 50  0001 C CNN
-F 3 "" H 9400 6450 50  0001 C CNN
-	1    9400 6450
+P 9150 6500
+F 0 "#PWR045" H 9150 6350 50  0001 C CNN
+F 1 "+3.3V" H 9165 6673 50  0000 C CNN
+F 2 "" H 9150 6500 50  0001 C CNN
+F 3 "" H 9150 6500 50  0001 C CNN
+	1    9150 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J6
 U 1 1 608F76A7
-P 8100 8850
-F 0 "J6" H 8150 9167 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 8150 9076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8100 8850 50  0001 C CNN
-F 3 "~" H 8100 8850 50  0001 C CNN
-	1    8100 8850
+P 11200 9100
+F 0 "J6" H 11250 9417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 11250 9326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 11200 9100 50  0001 C CNN
+F 3 "~" H 11200 9100 50  0001 C CNN
+	1    11200 9100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 8750 0    50   Input ~ 0
+Text GLabel 11000 9000 0    50   Input ~ 0
 SPI_SS
-Text GLabel 7900 8850 0    50   Input ~ 0
+Text GLabel 11000 9100 0    50   Input ~ 0
 SPI_SCK
-Text GLabel 7900 8950 0    50   Input ~ 0
+Text GLabel 11000 9200 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 7900 9050 0    50   Input ~ 0
+Text GLabel 11000 9300 0    50   Input ~ 0
 SPI_MOSI
 $Comp
 L power:GND #PWR065
 U 1 1 608F8197
-P 8400 8750
-F 0 "#PWR065" H 8400 8500 50  0001 C CNN
-F 1 "GND" H 8405 8577 50  0000 C CNN
-F 2 "" H 8400 8750 50  0001 C CNN
-F 3 "" H 8400 8750 50  0001 C CNN
-	1    8400 8750
+P 11500 9000
+F 0 "#PWR065" H 11500 8750 50  0001 C CNN
+F 1 "GND" H 11505 8827 50  0000 C CNN
+F 2 "" H 11500 9000 50  0001 C CNN
+F 3 "" H 11500 9000 50  0001 C CNN
+	1    11500 9000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR066
 U 1 1 608F890D
-P 8400 8850
-F 0 "#PWR066" H 8400 8700 50  0001 C CNN
-F 1 "+3.3V" H 8415 9023 50  0000 C CNN
-F 2 "" H 8400 8850 50  0001 C CNN
-F 3 "" H 8400 8850 50  0001 C CNN
-	1    8400 8850
+P 11500 9100
+F 0 "#PWR066" H 11500 8950 50  0001 C CNN
+F 1 "+3.3V" H 11515 9273 50  0000 C CNN
+F 2 "" H 11500 9100 50  0001 C CNN
+F 3 "" H 11500 9100 50  0001 C CNN
+	1    11500 9100
 	0    1    1    0   
 $EndComp
-Text GLabel 8400 8950 2    50   Input ~ 0
+Text GLabel 11500 9200 2    50   Input ~ 0
 CDONE
-Text GLabel 8400 9050 2    50   Input ~ 0
+Text GLabel 11500 9300 2    50   Input ~ 0
 CRESET
+Text GLabel 9150 7300 0    50   Input ~ 0
+gp_b_17
+Text GLabel 9650 7300 2    50   Input ~ 0
+gp_b_18
+Text GLabel 1400 6750 0    50   Input ~ 0
+gp_b_19
+Text GLabel 9650 7400 2    50   Input ~ 0
+gp_b_20
+Text GLabel 1400 6950 0    50   Input ~ 0
+gp_b_21
+Text GLabel 9650 7500 2    50   Input ~ 0
+gp_b_22
+Text GLabel 1400 7150 0    50   Input ~ 0
+gp_b_23
+Text GLabel 1400 7250 0    50   Input ~ 0
+gp_b_24
+Text GLabel 1400 6550 0    50   Input ~ 0
+gp_b_17
+Text GLabel 1400 6650 0    50   Input ~ 0
+gp_b_18
+Text GLabel 9150 7400 0    50   Input ~ 0
+gp_b_19
+Text GLabel 1400 6850 0    50   Input ~ 0
+gp_b_20
+Text GLabel 9150 7500 0    50   Input ~ 0
+gp_b_21
+Text GLabel 1400 7050 0    50   Input ~ 0
+gp_b_22
+Text GLabel 9150 7600 0    50   Input ~ 0
+gp_b_23
+Text GLabel 9650 7600 2    50   Input ~ 0
+gp_b_24
+Text GLabel 7400 6050 0    50   Input ~ 0
+gp_a_1
+Text GLabel 7900 6050 2    50   Input ~ 0
+gp_a_2
+Text GLabel 7400 6150 0    50   Input ~ 0
+gp_a_3
+Text GLabel 7900 6150 2    50   Input ~ 0
+gp_a_4
+Text GLabel 7400 6250 0    50   Input ~ 0
+gp_a_5
+Text GLabel 7900 6250 2    50   Input ~ 0
+gp_a_6
+Text GLabel 7400 6350 0    50   Input ~ 0
+gp_a_7
+Text GLabel 7900 6350 2    50   Input ~ 0
+gp_a_8
+Text GLabel 1400 7350 0    50   Input ~ 0
+gp_a_2
+Text GLabel 4000 4850 0    50   Input ~ 0
+gp_a_4
+Text GLabel 4000 5050 0    50   Input ~ 0
+gp_a_6
+Text GLabel 4000 5250 0    50   Input ~ 0
+gp_a_8
+Text GLabel 1400 7450 0    50   Input ~ 0
+gp_a_1
+Text GLabel 4000 4950 0    50   Input ~ 0
+gp_a_3
+Text GLabel 4000 5150 0    50   Input ~ 0
+gp_a_5
+Text GLabel 4000 5350 0    50   Input ~ 0
+gp_a_7
+Text GLabel 7400 6650 0    50   Input ~ 0
+gp_a_9
+Text GLabel 7900 6650 2    50   Input ~ 0
+gp_a_10
+Text GLabel 7400 6750 0    50   Input ~ 0
+gp_a_11
+Text GLabel 7900 6750 2    50   Input ~ 0
+gp_a_12
+Text GLabel 7400 6850 0    50   Input ~ 0
+gp_a_13
+Text GLabel 7900 6850 2    50   Input ~ 0
+gp_a_14
+Text GLabel 7400 6950 0    50   Input ~ 0
+gp_a_15
+Text GLabel 7900 6950 2    50   Input ~ 0
+gp_a_16
+Text GLabel 4000 5450 0    50   Input ~ 0
+gp_a_10
+Text GLabel 4000 5650 0    50   Input ~ 0
+gp_a_12
+Text GLabel 4000 5850 0    50   Input ~ 0
+gp_a_14
+Text GLabel 4000 6050 0    50   Input ~ 0
+gp_a_16
+Text GLabel 4000 5550 0    50   Input ~ 0
+gp_a_9
+Text GLabel 4000 5750 0    50   Input ~ 0
+gp_a_11
+Text GLabel 4000 5950 0    50   Input ~ 0
+gp_a_13
+Text GLabel 4000 6150 0    50   Input ~ 0
+gp_a_15
+Text GLabel 7400 7250 0    50   Input ~ 0
+gp_a_17
+Text GLabel 7900 7250 2    50   Input ~ 0
+gp_a_18
+Text GLabel 7400 7350 0    50   Input ~ 0
+gp_a_19
+Text GLabel 7900 7350 2    50   Input ~ 0
+gp_a_20
+Text GLabel 7400 7450 0    50   Input ~ 0
+gp_a_21
+Text GLabel 7900 7450 2    50   Input ~ 0
+gp_a_22
+Text GLabel 7400 7550 0    50   Input ~ 0
+gp_a_23
+Text GLabel 7900 7550 2    50   Input ~ 0
+gp_a_24
+Text GLabel 4000 6950 0    50   Input ~ 0
+gp_a_18
+Text GLabel 4000 7150 0    50   Input ~ 0
+gp_a_20
+Text GLabel 4000 7350 0    50   Input ~ 0
+gp_a_22
+Text GLabel 4000 7550 0    50   Input ~ 0
+gp_a_24
+Text GLabel 4000 6850 0    50   Input ~ 0
+gp_a_17
+Text GLabel 4000 7050 0    50   Input ~ 0
+gp_a_19
+Text GLabel 4000 7250 0    50   Input ~ 0
+gp_a_21
+Text GLabel 4000 7450 0    50   Input ~ 0
+gp_a_23
+Text GLabel 2700 4750 0    50   Input ~ 0
+gp_c_1
+Text GLabel 2700 4650 0    50   Input ~ 0
+gp_c_2
+Text GLabel 2700 4950 0    50   Input ~ 0
+gp_c_3
+Text GLabel 2700 4850 0    50   Input ~ 0
+gp_c_4
+Text GLabel 2700 5150 0    50   Input ~ 0
+gp_c_5
+Text GLabel 2700 5050 0    50   Input ~ 0
+gp_c_6
+Text GLabel 2700 5350 0    50   Input ~ 0
+gp_c_7
+Text GLabel 2700 5250 0    50   Input ~ 0
+gp_c_8
+Text GLabel 11000 6050 0    50   Input ~ 0
+gp_c_1
+Text GLabel 11500 6050 2    50   Input ~ 0
+gp_c_2
+Text GLabel 11000 6150 0    50   Input ~ 0
+gp_c_3
+Text GLabel 11500 6150 2    50   Input ~ 0
+gp_c_4
+Text GLabel 11000 6250 0    50   Input ~ 0
+gp_c_5
+Text GLabel 11500 6250 2    50   Input ~ 0
+gp_c_6
+Text GLabel 11000 6350 0    50   Input ~ 0
+gp_c_7
+Text GLabel 11500 6350 2    50   Input ~ 0
+gp_c_8
+Text GLabel 9150 6700 0    50   Input ~ 0
+gp_b_9
+Text GLabel 9650 6700 2    50   Input ~ 0
+gp_b_10
+Text GLabel 9150 6800 0    50   Input ~ 0
+gp_b_11
+Text GLabel 9650 6800 2    50   Input ~ 0
+gp_b_12
+Text GLabel 9150 6900 0    50   Input ~ 0
+gp_b_13
+Text GLabel 9650 6900 2    50   Input ~ 0
+gp_b_14
+Text GLabel 9150 7000 0    50   Input ~ 0
+gp_b_15
+Text GLabel 9650 7000 2    50   Input ~ 0
+gp_b_16
+Text GLabel 1400 6450 0    50   Input ~ 0
+gp_b_16
+Text GLabel 1400 6250 0    50   Input ~ 0
+gp_b_15
+Text GLabel 1400 6150 0    50   Input ~ 0
+gp_b_14
+Text GLabel 1400 6050 0    50   Input ~ 0
+gp_b_13
+Text GLabel 1400 5950 0    50   Input ~ 0
+gp_b_12
+Text GLabel 1400 5850 0    50   Input ~ 0
+gp_b_11
+Text GLabel 1400 5750 0    50   Input ~ 0
+gp_b_10
+Text GLabel 1400 5650 0    50   Input ~ 0
+gp_b_9
+Text GLabel 9150 6100 0    50   Input ~ 0
+gp_b_1
+Text GLabel 9650 6100 2    50   Input ~ 0
+gp_b_2
+Text GLabel 9150 6200 0    50   Input ~ 0
+gp_b_3
+Text GLabel 9650 6200 2    50   Input ~ 0
+gp_b_4
+Text GLabel 9150 6300 0    50   Input ~ 0
+gp_b_5
+Text GLabel 9650 6300 2    50   Input ~ 0
+gp_b_6
+Text GLabel 9150 6400 0    50   Input ~ 0
+gp_b_7
+Text GLabel 9650 6400 2    50   Input ~ 0
+gp_b_8
+Text GLabel 1400 4950 0    50   Input ~ 0
+gp_b_1
+Text GLabel 1400 4850 0    50   Input ~ 0
+gp_b_2
+Text GLabel 1400 5150 0    50   Input ~ 0
+gp_b_3
+Text GLabel 1400 5050 0    50   Input ~ 0
+gp_b_4
+Text GLabel 1400 5350 0    50   Input ~ 0
+gp_b_5
+Text GLabel 1400 5250 0    50   Input ~ 0
+gp_b_6
+Text GLabel 1400 5550 0    50   Input ~ 0
+gp_b_7
+Text GLabel 1400 5450 0    50   Input ~ 0
+gp_b_8
+Text GLabel 11000 7250 0    50   Input ~ 0
+gp_c_17
+Text GLabel 11500 7250 2    50   Input ~ 0
+gp_c_18
+Text GLabel 11000 7350 0    50   Input ~ 0
+gp_c_19
+Text GLabel 11500 7350 2    50   Input ~ 0
+gp_c_20
+Text GLabel 11000 7450 0    50   Input ~ 0
+gp_c_21
+Text GLabel 11500 7450 2    50   Input ~ 0
+gp_c_22
+Text GLabel 11000 7550 0    50   Input ~ 0
+gp_c_23
+Text GLabel 11500 7550 2    50   Input ~ 0
+gp_c_24
+Text GLabel 2700 6750 0    50   Input ~ 0
+gp_c_17
+Text GLabel 2700 6850 0    50   Input ~ 0
+gp_c_18
+Text GLabel 2700 6950 0    50   Input ~ 0
+gp_c_19
+Text GLabel 2700 7050 0    50   Input ~ 0
+gp_c_20
+Text GLabel 2700 7150 0    50   Input ~ 0
+gp_c_21
+Text GLabel 2700 7250 0    50   Input ~ 0
+gp_c_22
+Text GLabel 2700 7350 0    50   Input ~ 0
+gp_c_23
+Text GLabel 2700 7450 0    50   Input ~ 0
+gp_c_24
+Text GLabel 11000 6650 0    50   Input ~ 0
+gp_c_9
+Text GLabel 11500 6650 2    50   Input ~ 0
+gp_c_10
+Text GLabel 11000 6750 0    50   Input ~ 0
+gp_c_11
+Text GLabel 11500 6750 2    50   Input ~ 0
+gp_c_12
+Text GLabel 11000 6850 0    50   Input ~ 0
+gp_c_13
+Text GLabel 11500 6850 2    50   Input ~ 0
+gp_c_14
+Text GLabel 11000 6950 0    50   Input ~ 0
+gp_c_15
+Text GLabel 11500 6950 2    50   Input ~ 0
+gp_c_16
+Text GLabel 2700 5750 0    50   Input ~ 0
+gp_c_10
+Text GLabel 2700 5950 0    50   Input ~ 0
+gp_c_12
+Text GLabel 2700 6150 0    50   Input ~ 0
+gp_c_14
+Text GLabel 2700 6350 0    50   Input ~ 0
+gp_c_16
+Text GLabel 2700 5650 0    50   Input ~ 0
+gp_c_9
+Text GLabel 2700 5850 0    50   Input ~ 0
+gp_c_11
+Text GLabel 2700 6050 0    50   Input ~ 0
+gp_c_13
+Text GLabel 2700 6250 0    50   Input ~ 0
+gp_c_15
+NoConn ~ 2700 6650
+NoConn ~ 2700 6550
+NoConn ~ 2700 6450
+NoConn ~ 2700 5550
+NoConn ~ 2700 5450
+NoConn ~ 4000 6750
+NoConn ~ 4000 6650
+NoConn ~ 4000 6550
+NoConn ~ 4000 6450
+NoConn ~ 4000 6350
+NoConn ~ 4000 6250
+NoConn ~ 5350 5650
+NoConn ~ 5350 5750
+NoConn ~ 5350 5850
+NoConn ~ 5350 6050
+NoConn ~ 5350 6150
+NoConn ~ 5350 6250
+NoConn ~ 5350 6350
+NoConn ~ 5350 6750
+NoConn ~ 5350 6850
+NoConn ~ 5350 6950
+NoConn ~ 5350 7050
+NoConn ~ 5350 7150
+NoConn ~ 5350 7250
 $EndSCHEMATC
