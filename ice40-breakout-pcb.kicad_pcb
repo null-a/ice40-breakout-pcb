@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 703)
     (zones 0)
-    (modules 59)
+    (modules 60)
     (nets 139)
   )
 
@@ -384,6 +384,25 @@
     (add_net VCCPLL0)
     (add_net VCCPLL1)
     (add_net VPP_2V5)
+  )
+
+  (module MountingHole:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 608162DC)
+    (at 143.95 61.7)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 607CB365)
@@ -3072,10 +3091,11 @@
     )
   )
 
+  (gr_line (start 148 130.7) (end 148 61.7) (layer Edge.Cuts) (width 0.05) (tstamp 60816322))
+  (gr_line (start 92 57.65) (end 143.95 57.65) (layer Edge.Cuts) (width 0.05) (tstamp 60816321))
+  (gr_arc (start 143.95 61.7) (end 148 61.7) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 92 57.65) (end 92 130.7) (layer Edge.Cuts) (width 0.05) (tstamp 6080E9A4))
-  (gr_line (start 148 130.7) (end 148 57.65) (layer Edge.Cuts) (width 0.05) (tstamp 6080E9A2))
   (gr_line (start 92 130.7) (end 148 130.7) (layer Edge.Cuts) (width 0.05) (tstamp 607DE55B))
-  (gr_line (start 92 57.65) (end 148 57.65) (layer Edge.Cuts) (width 0.05) (tstamp 607DE552))
 
   (segment (start 95.65 119.2125) (end 95.5625 119.3) (width 0.65) (layer F.Cu) (net 1))
   (segment (start 95.65 116.5) (end 95.65 119.2125) (width 0.65) (layer F.Cu) (net 1))
