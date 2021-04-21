@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 65)
+    (drawings 66)
     (tracks 859)
     (zones 0)
     (modules 63)
@@ -3162,6 +3162,9 @@
     )
   )
 
+  (gr_text "iCE40 HX4K breakout\nPaul Horsfall 2021\nREV A" (at 141.8 125.35) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.153)) (justify right))
+  )
   (gr_text "GND\n3V3" (at 139.75 110.3 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.153)))
   )
