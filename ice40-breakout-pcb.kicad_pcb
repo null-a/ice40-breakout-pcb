@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 61)
+    (drawings 65)
     (tracks 859)
     (zones 0)
     (modules 63)
@@ -3162,6 +3162,18 @@
     )
   )
 
+  (gr_text "GND\n3V3" (at 139.75 110.3 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.153)))
+  )
+  (gr_text "CB1\nCB0" (at 139.75 120.45 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.153)))
+  )
+  (gr_text "CR\nCD" (at 139.75 117.925 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.153)))
+  )
+  (gr_text "SDO\nSDI" (at 139.75 115.375 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.153)))
+  )
   (gr_text "SCK\nSS" (at 139.75 112.85 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.153)))
   )
@@ -4190,7 +4202,7 @@
   (segment (start 124.75 109.123612) (end 124.54997 109.323642) (width 0.18) (layer F.Cu) (net 136))
   (segment (start 124.75 100.6625) (end 124.75 109.123612) (width 0.18) (layer F.Cu) (net 136))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 60811ED7) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 6081BBA3) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
