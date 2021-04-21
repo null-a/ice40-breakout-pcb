@@ -1990,7 +1990,7 @@ Text GLabel 4000 5650 0    50   Input ~ 0
 gp_a_12
 Text GLabel 4000 5850 0    50   Input ~ 0
 gp_a_14
-Text GLabel 4000 6050 0    50   Input ~ 0
+Text GLabel 4000 6350 0    50   Input ~ 0
 gp_a_16
 Text GLabel 4000 5550 0    50   Input ~ 0
 gp_a_9
@@ -1998,7 +1998,7 @@ Text GLabel 4000 5750 0    50   Input ~ 0
 gp_a_11
 Text GLabel 4000 5950 0    50   Input ~ 0
 gp_a_13
-Text GLabel 4000 6150 0    50   Input ~ 0
+Text GLabel 4000 6450 0    50   Input ~ 0
 gp_a_15
 Text GLabel 7400 7250 0    50   Input ~ 0
 gp_a_17
@@ -2200,9 +2200,6 @@ NoConn ~ 2700 5450
 NoConn ~ 4000 6750
 NoConn ~ 4000 6650
 NoConn ~ 4000 6550
-NoConn ~ 4000 6450
-NoConn ~ 4000 6350
-NoConn ~ 4000 6250
 NoConn ~ 5350 5650
 NoConn ~ 5350 5750
 NoConn ~ 5350 5850
@@ -2293,4 +2290,7 @@ F 3 "~" H 14200 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14350 2500 14200 2500
+NoConn ~ 4000 6050
+NoConn ~ 4000 6150
+NoConn ~ 4000 6250
 $EndSCHEMATC
