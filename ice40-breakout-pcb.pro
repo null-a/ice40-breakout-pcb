@@ -1,4 +1,4 @@
-update=Wednesday, 21 April 2021 at 08:55:40
+update=Wednesday, 21 April 2021 at 11:39:57
 version=1
 last_client=kicad
 [general]
@@ -42,6 +42,8 @@ TrackWidth1=0.18
 TrackWidth2=0.3
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.6
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -238,7 +240,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.18
+Clearance=0.15
 TrackWidth=0.18
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -249,7 +251,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.18
+Clearance=0.15
 TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -260,7 +262,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power (Wider)
-Clearance=0.18
+Clearance=0.15
 TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
