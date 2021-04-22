@@ -328,8 +328,6 @@ Wire Wire Line
 	1350 1100 1350 950 
 Wire Wire Line
 	1350 1550 1350 1750
-Text Notes 2550 2750 0    50   ~ 0
-TODO: Check orientation for breakout
 $Comp
 L Device:R_Small R4
 U 1 1 607D6E0A
