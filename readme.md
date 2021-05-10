@@ -3,7 +3,29 @@
 This KiCAD project contains the design of a break out / dev board for
 a Lattice iCE40 HX4K FPGA.
 
+I'm a novice at PCB design, so please don't assume anything here
+represents good practice. I was motivated to tackle this after seeing
+Matt Venn's [iCE40 board](https://github.com/mattvenn/first-fpga-pcb).
+Some elements of the design are based on
+the [TinyFPGA BX](https://github.com/tinyfpga/TinyFPGA-BX).
+
+# Features
+
+* SPI flash for configuration.
+* On-board clock.
+* Powered by 5v from a micro USB connector. Regulators for 3.3v and
+  1.2v. Power LED.
+* Single output LED.
+* 72 GPIO pins broken out. sysCONFIG pins broken out for programming
+  the flash. Cold boot config pins broken.
+* The USB data lines are connected to the FPGA. The hope is that it
+  will be possible to program the board directly over USB using e.g.
+  the TinyFPGA bootloader.
+* 2 layer PCB.
+* Designed for hand assembly.
+
 # Project Log
 
-* 22 April 2021: Revision A of the board completed. Prototype boards
+* 2021-05-10: Prototype boards received.
+* 2021-04-22: Revision A of the board completed. Prototype boards
   ordered.
