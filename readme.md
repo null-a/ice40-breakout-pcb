@@ -26,6 +26,7 @@ the [TinyFPGA BX](https://github.com/tinyfpga/TinyFPGA-BX).
 
 # Project Log
 
+* 2021-05-12: First board assembled.
 * 2021-05-10: Prototype boards received.
 * 2021-04-22: Revision A of the board completed. Prototype boards
   ordered.
