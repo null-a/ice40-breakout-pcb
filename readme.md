@@ -28,6 +28,9 @@ the [TinyFPGA BX](https://github.com/tinyfpga/TinyFPGA-BX).
 
 ## Project Log
 
+* 2021-05-22: Confirmed that I can blink the on-board LED using the
+  FPGA. I'm currently using an external programmer to load the
+  configuration into the on-board flash. (See [blinky](blinky).)
 * 2021-05-12: First board assembled.
 * 2021-05-10: Prototype boards received.
 * 2021-04-22: Revision A of the board completed. Prototype boards
