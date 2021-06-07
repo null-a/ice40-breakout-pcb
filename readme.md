@@ -20,14 +20,16 @@ the [TinyFPGA BX](https://github.com/tinyfpga/TinyFPGA-BX).
 * Single output LED.
 * 72 GPIO pins broken out. sysCONFIG pins broken out for programming
   the flash. Cold boot config pins broken out.
-* The USB data lines are connected to the FPGA. The hope is that it
-  will be possible to program the board directly over USB using e.g.
-  the TinyFPGA bootloader.
+* The USB data lines are connected to the FPGA. This makes it possible
+  to program the board directly over USB using e.g. the TinyFPGA
+  bootloader.
 * 2 layer PCB.
 * Designed for hand assembly.
 
 ## Project Log
 
+* 2021-06-07: I now have the
+  [TinyFPGA bootloader](https://github.com/tinyfpga/TinyFPGA-Bootloader) working.
 * 2021-05-22: Confirmed that I can blink the on-board LED using the
   FPGA. I'm currently using an external programmer to load the
   configuration into the on-board flash. (See [blinky](blinky).)
